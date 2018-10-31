@@ -1,54 +1,45 @@
 *{
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 nav{
-    background-color: black;
+    background-color: orange;
     overflow: hidden;
-    padding: 20px;
+}
+.logo-section{
+    float: left;
+    padding: 1px 12px;
+}
+.fa fa-bars{
+    font-size: 14px;
+}
+.button5{
+    display: none;
+    color: white;
+    width: 10%;
+    border: 1px solid white;
+    background-color: inherit;
+}
+nav ul{
+    float: right;
 }
 nav ul li{
-    list-style-type: none;
     display: inline-block;
+    padding: 15px;
+    list-style-type: none;
 }
 nav ul li a{
-    font-family: "Droid Sans Mono",sans-serif;
+    font-family: "Droid Sans Mono", sans-serif;
     font-size: 20px;
     color: white;
     text-decoration: none;
-    padding: 12px 20px;
 }
-nav ul li a:hover{
-    font-family: "Droid Sans Mono",sans-serif;
-    background-color: white;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    padding: 25px;
-}
-.logo{
-    float: left;
-}
-.logo1{
-    float: right;
-}
-.dropdown_list{
-    background-color: lightslategray;
-    display: none;
-    position: absolute;
-    margin-top: 20px;
-}
-.dropdown_list a{
-    display: block;
-}
-.dropdown:hover .dropdown_list{
-    display: block;
-}
+
 .section1{
     background-image: url('images/G10.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1280px;
+    width: 1263px;
     height: 650px;
 }
 .risus{
@@ -429,78 +420,55 @@ nav ul li a:hover{
 }
 
 @media (max-width:578px){
-    *{
-        margin: auto;
-        padding: auto;
+    .logo-section{
+        float: none;
     }
-    nav{
-        background-color: black;
-        overflow: hidden;
-        padding: 20px;
+    nav ul{
+        float: none;
     }
     nav ul li{
-        list-style-type: none;
-        display: inline-block;
+        float: none;
     }
     nav ul li a{
-        font-family: "Droid Sans Mono",sans-serif;
-        font-size: 20px;
-        color: white;
-        text-decoration: none;
-        padding: 12px 20px;
-    }
-    nav ul li a:hover{
-        font-family: "Droid Sans Mono",sans-serif;
-        background-color: white;
-        font-size: 20px;
-        color: black;
-        text-decoration: none;
-        padding: 25px;
-    }
-    .logo{
-        float: left;
-    }
-    .logo1{
-        float: right;
-    }
-    .dropdown_list{
-        background-color: lightslategray;
         display: none;
-        position: absolute;
-        margin-top: 20px;
     }
-    .dropdown_list a{
-        display: block;
+    .fa-bars{
+        font-size: 19px;
     }
-    .dropdown:hover .dropdown_list{
-        display: block;
+    .button5{
+        display: inline;
+        position: relative;
     }
+
     .section1{
         background-image: url('images/G10.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 1280px;
+        width: 530px;
         height: 650px;
+        text-align: center;
     }
+
     .risus{
         font-family: "Droid Sans Mono", sans-serif;
         font-size: 25px;
         color: white;
-        text-align: center;
-        padding: 75px;
+        padding-left: 60px;
+        text-align: left;
+
     }
     .p1{
         font-family: "Droid Sans Mono", sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         color: white;
-        text-align: center;
-        width: 30%;
-        padding-left: -250px;
+        text-align: left;
+        width: 75%;
+        padding-left: -500%;
 
     }
     .button{
         text-align: center;
-        width: 100%;
+        width: 50%;
     }
     .button1{
         font-family: "Droid Sans Mono", sans-serif;
@@ -510,7 +478,7 @@ nav ul li a:hover{
         border: 2px solid white;
         padding: 15px;
         background-color: inherit;
-        margin: 20px;
+        margin-left: -10px;
     }
     .button2{
         font-family: "Droid Sans Mono", sans-serif;
@@ -529,7 +497,7 @@ nav ul li a:hover{
         border: 2px solid white;
         padding: 15px;
         background-color: white;
-        margin: 20px;
+        margin-left: -10px;
     }
     .button2:hover{
         font-family: "Droid Sans Mono", sans-serif;
@@ -765,7 +733,7 @@ nav ul li a:hover{
     }
     .contact{
         background-color: green;
-        padding: 240px 50px;
+        padding: 80px 20px 200px 20px;
     }
     .lorem{
         font-family: "Droid Sans Mono", sans-serif;
@@ -777,16 +745,18 @@ nav ul li a:hover{
         font-size: 16px;
         color: white;
         border: 2px solid white;
-        padding: 10px;
+        padding: 15px;
         background-color: inherit;
+        margin: 10px 5px;
     }
     .button4:hover{
         font-family: "Droid Sans Mono", sans-serif;
         font-size: 16px;
         color: black;
         border: 2px solid white;
-        padding: 10px;
+        padding: 15px;
         background-color: white;
+        margin: 10px 5px;
     }
     .footers{
         margin-top: 50px;
@@ -811,32 +781,37 @@ nav ul li a:hover{
         font-family: "Droid Sans Mono", sans-serif;
         font-size: 20px;
         padding: 20px;
+        text-align: center;
     }
     .ordered ul li{
         list-style-type: none;
         padding: 10px;
+        text-align: center;
         text-decoration: none;
     }
     .ordered3 ul li{
         list-style-type: none;
-        padding: 10px 20px;
+        padding: 10px 25px;
+        text-align: center;
         text-decoration: none;
     }
     .ordered2 ul li{
         list-style-type: none;
         padding: 10px 0px;
+        text-align: center;
         text-decoration: none;
     }
     .ordered2 ul li p{
         list-style-type: none;
         padding: 10px 0px;
+        text-align: center;
         text-decoration: none;
     }
     .firstfooter{
         background-color: gray;
     }
     .lastfooter{
-        padding: 100px 75px;
+        padding: 80px 20px 160px 20px;
         background-color: black;
     }
     .copyright{
@@ -845,12 +820,17 @@ nav ul li a:hover{
         color: white;
         padding-bottom: 20px;
         text-align: left;
+        padding-left: -60px;
     }
     .templated{
+        width: 100%;
         font-family: "Droid Sans Mono", sans-serif;
         font-size: 16px;
         color: white;
-        text-align: center;
+        padding-left: -160px;
+    }
+    .button5{
+        float: right;
     }
 
 }
