@@ -1,0 +1,835 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: inherit;
+}
+.logo-section{
+    float: left;
+    padding: 1px 12px;
+}
+.fa-bars{
+    font-size: 14px;
+}
+.button5{
+    display: none;
+    color: white;
+    width: 10%;
+    border: 1px solid white;
+    background-color: inherit;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px;
+    list-style-type: none;
+}
+nav ul li a{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.section1{
+    background: linear-gradient(red,pink,green);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1263px;
+    height: 650px;
+}
+.risus{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.p1{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.button{
+    text-align: center;
+}
+.button1{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: inherit;
+    margin: 20px;
+}
+.button2{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: inherit;
+}
+.button1:hover{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: white;
+    margin: 20px;
+}
+.button2:hover{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: white;
+}
+.div{
+    clear: both;
+}
+.div1{
+    clear: both;
+    padding-bottom: 50px;
+}
+.section2{
+    margin-top: 50px;
+}
+.fa{
+    font-size: 50px;
+}
+.article1{
+    width: 25%;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 7px;
+    padding: 30px;
+    margin-left: 30px;
+    color: black;
+    float: left;
+}
+.tempor{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    padding: 25px;
+}
+.paragraph{
+    font-family: "Droid Sans Mono", sans-serif;
+}
+.article1:hover{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+    padding: 30px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+.tempor:hover{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    padding: 25px;
+}
+.paragraph:hover{
+    font-family: "Droid Sans Mono", sans-serif;
+}
+.article2{
+    width: 25%;
+    border: 2px solid gray;
+    text-align: center;
+    padding: 30px;
+    margin-right: 30px;
+    color: white;
+    background-color: black;
+    float: right;
+    border-radius: 7px;
+}
+.article2:hover{
+    width: 25%;
+    border: 2px solid grey;
+    text-align: center;
+    padding: 30px;
+    margin-right: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px black;
+}
+.article3{
+     width: 25%;
+     border: 2px solid gray;
+     text-align: center;
+     padding: 30px;
+    margin-right: 30px;
+     color: black;
+    border-radius: 7px;
+    float: right;
+ }
+.article3:hover{
+    width: 25%;
+    border-radius: 7px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+    margin-right: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+.section3{
+    margin-top: 75px;
+}
+.VIVAMUS{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+.section4{
+    margin-top: 75px;
+}
+.h1{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 20px;
+    padding: 25px 0px;
+}
+.para{
+    font-family: "Droid Sans Mono",sans-serif;
+    font-size: 16px;
+}
+.icon1{
+    width: 27%;
+    float: left;
+    margin-left: 20px;
+    padding: 20px;
+}
+.icon2{
+    width: 27%;
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+}
+.icon3{
+     width: 27%;
+    float: right;
+    margin-right: 20px;
+    padding: 20px;
+ }
+.icon4{
+    width: 27%;
+    float: left;
+    margin-left: 20px;
+    padding: 20px ;
+}
+.icon5{
+    width: 27%;
+    float: right;
+    margin-right: 20px;
+    padding: 20px ;
+}
+.icon6{
+    width: 27%;
+    float: right;
+    margin-right: 20px;
+    padding: 20px ;
+}
+.fa-bicycle:hover{
+    color: red;
+}
+.fa-gears:hover{
+    color: red;
+}
+.fa-bell:hover{
+    color: red;
+}
+.fa-warning:hover{
+    color: red;
+}
+.fa-gamepad:hover{
+    color: red;
+}
+.fa-bank:hover{
+    color: red;
+}
+.article4{
+    text-align: center;
+    padding: 60px;
+}
+.button3{
+    border: 2px solid red;
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: inherit;
+    margin-top: 30px;
+}
+.button3:hover{
+    border: 2px solid red;
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: red;
+    margin-top: 30px;
+}
+.section5{
+    padding-top: 50px;
+}
+.eros{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.image1{
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+}
+.image2{
+    width: 25%;
+    float: right;
+}
+.image3{
+    width: 24.5%;
+    float: right;
+}
+.image4{
+    width: 24.5%;
+    float: right;
+}
+.magnis{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    padding: 20px 0px;
+}
+.article6{
+    width:80%;
+    float: left;
+}
+.article7{
+    width:20%;
+    float: right;
+}
+.contact{
+    background-color: green;
+    padding: 25px 15px 65px 15px;
+}
+.lorem{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+}
+.button4{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: inherit;
+}
+.button4:hover{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: black;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: white;
+}
+.footers{
+    margin-top: 50px;
+    background-color: black;
+}
+.footer1{
+    width: 33%;
+    float: left;
+    padding-left: 20px;
+    background-color: #eeeeee;
+}
+.footer2{
+    width: 32%;
+    float: right;
+    padding-right: 10px;
+    background-color: #eeeeee;
+}
+.footer3{
+    width: 30%;
+    float: right;
+    padding-right: 33px;
+    background-color: #eeeeee;
+}
+.id{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.ordered ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.ordered3 ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.ordered2 ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.ordered2 ul li p{
+    list-style-type: none;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.firstfooter{
+    background-color: gray;
+}
+.lastfooter{
+    padding: 45px;
+    background-color: black;
+}
+.copyright{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 18px;
+    color: white;
+    float: left;
+}
+.templated{
+    font-family: "Droid Sans Mono", sans-serif;
+    font-size: 16px;
+    color: white;
+    float: right;
+}
+
+@media (max-width:578px){
+    .logo-section{
+        float: none;
+    }
+    nav{
+        background-color: red;
+    }
+    nav ul{
+        float: none;
+    }
+    nav ul li{
+        float: none;
+    }
+    nav ul li a{
+        display: none;
+    }
+    .button5{
+        display: inline;
+        position: relative;
+    }
+
+    .section1{
+        background: linear-gradient(red,pink,green);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 530px;
+        height: 650px;
+        text-align: center;
+    }
+
+    .risus{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 30px;
+        color: white;
+        padding-left: 60px;
+        text-align: left;
+
+    }
+    .p1{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 14px;
+        color: white;
+        text-align: left;
+        width: 75%;
+        padding-left: -500%;
+
+    }
+    .button{
+        text-align: center;
+        width: 50%;
+    }
+    .button1{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: inherit;
+        margin-left: -10px;
+    }
+    .button2{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: inherit;
+    }
+    .button1:hover{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: white;
+        margin-left: -10px;
+    }
+    .button2:hover{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: white;
+    }
+    .div{
+        clear: both;
+    }
+    .div1{
+        clear: both;
+        padding-bottom: 50px;
+    }
+    .section2{
+        margin-top: 50px;
+    }
+    .fa{
+        font-size: 50px;
+    }
+    .article1{
+        width: 70%;
+        border: 2px solid gray;
+        text-align: center;
+        border-radius: 7px;
+        color: black;
+        padding: 30px;
+        margin-right: 30px;
+        float: right;
+    }
+    .tempor{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        padding: 25px;
+    }
+    .paragraph{
+        font-family: "Droid Sans Mono", sans-serif;
+        padding: 30px;
+    }
+    .article1:hover{
+        width: 70%;
+        border: 2px solid black;
+        border-radius: 7px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        float: right;
+        box-shadow: 5px 5px 5px black;
+    }
+    .tempor:hover{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        padding: 25px;
+    }
+    .paragraph:hover{
+        font-family: "Droid Sans Mono", sans-serif;
+    }
+    .article2{
+        width: 70%;
+        border: 2px solid gray;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        color: white;
+        background-color: black;
+        float: right;
+        border-radius: 7px;
+    }
+    .article2:hover{
+        width: 70%;
+        border: 2px solid grey;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .article3{
+        width: 70%;
+        border: 2px solid gray;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        color: black;
+        border-radius: 7px;
+        float: right;
+    }
+    .article3:hover{
+        width: 70%;
+        border-radius: 7px;
+        border: 2px solid black;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+        box-shadow: 5px 5px 5px black;
+    }
+    .section3{
+        margin-top: 75px;
+    }
+    .VIVAMUS{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 35px;
+        text-align: center;
+    }
+    .section4{
+        margin-top: 75px;
+    }
+    .h1{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 20px;
+        padding: 25px 0px;
+    }
+    .para{
+        font-family: "Droid Sans Mono",sans-serif;
+        font-size: 16px;
+    }
+    .icon1{
+        width: 80%;
+        float: left;
+        padding: 30px;
+    }
+    .icon2{
+        width: 80%;
+        float: right;
+        padding: 20px;
+    }
+    .icon3{
+        width: 80%;
+        float: right;
+        padding: 20px;
+    }
+    .icon4{
+        width: 80%;
+        float: left;
+        padding: 30px ;
+    }
+    .icon5{
+        width: 80%;
+        float: right;
+        padding: 20px ;
+    }
+    .icon6{
+        width: 80%;
+        float: right;
+        padding: 20px ;
+    }
+    .fa-bicycle:hover{
+        color: red;
+    }
+    .fa-gears:hover{
+        color: red;
+    }
+    .fa-bell:hover{
+        color: red;
+    }
+    .fa-warning:hover{
+        color: red;
+    }
+    .fa-gamepad:hover{
+        color: red;
+    }
+    .fa-bank:hover{
+        color: red;
+    }
+    .article4{
+        text-align: center;
+        padding: 60px;
+    }
+    .button3{
+        border: 2px solid red;
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        background-color: inherit;
+        margin-top: 30px;
+    }
+    .button3:hover{
+        border: 2px solid red;
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background-color: red;
+        margin-top: 30px;
+    }
+    .section5{
+        padding-top: 50px;
+    }
+    .eros{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .image1{
+        width: 80%;
+        float: right;
+    }
+    .image2{
+        width: 80%;
+        float: right;
+    }
+    .image3{
+        width: 80%;
+        float: right;
+    }
+    .image4{
+        width: 80%;
+        float: right;
+    }
+    .magnis{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        padding: 20px 0px;
+    }
+    .article6{
+      width: 100%;
+
+    }
+    .article7{
+        width: 100%;
+
+    }
+    .contact{
+        background-color: green;
+        padding: 80px 20px 200px 20px;
+    }
+    .lorem{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .button4{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: white;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: inherit;
+        margin: 10px 5px;
+    }
+    .button4:hover{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: black;
+        border: 2px solid white;
+        padding: 15px;
+        background-color: white;
+        margin: 10px 5px;
+    }
+    .footers{
+        margin-top: 50px;
+        background-color: black;
+    }
+    .footer1{
+        width: 100%;
+        float: right;
+        background-color: #eeeeee;
+    }
+    .footer2{
+        width: 100%;
+        float: right;
+        background-color: #eeeeee;
+    }
+    .footer3{
+        width: 100%;
+        float: right;
+        background-color: #eeeeee;
+    }
+    .id{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+    .ordered ul li{
+        list-style-type: none;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .ordered3 ul li{
+        list-style-type: none;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .ordered2 ul li{
+        list-style-type: none;
+        padding: 10px 0px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .ordered2 ul li p{
+        list-style-type: none;
+        padding: 10px 0px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .firstfooter{
+        background-color: gray;
+    }
+    .lastfooter{
+        padding: 80px 20px 160px 20px;
+        background-color: black;
+    }
+    .copyright{
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 18px;
+        color: white;
+        padding-bottom: 20px;
+        text-align: left;
+        padding-left: -60px;
+    }
+    .templated{
+        width: 100%;
+        font-family: "Droid Sans Mono", sans-serif;
+        font-size: 16px;
+        color: white;
+        padding-left: -160px;
+    }
+    .button5{
+        float: right;
+    }
+
+}
