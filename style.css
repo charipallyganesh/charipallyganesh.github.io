@@ -226,7 +226,6 @@ nav ul li a{
     text-align: center;
 }
 
-
 @media (max-width: 578px) {
     nav{
         background-color: black;
@@ -326,7 +325,7 @@ nav ul li a{
     }
     .section8 , .section9 , .section10 , .section11{
         background-color: blue;
-        padding-top: 50px;
+
     }
     .section8 h1{
         font-size: 40px;
@@ -367,6 +366,7 @@ nav ul li a{
     }
     .section9 , .section10 , .section11 , p{
         text-align: left;
+        padding-bottom: 10px;
     }
     .section5{
         margin: 30px auto;
