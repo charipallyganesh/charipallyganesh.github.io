@@ -268,7 +268,7 @@ nav ul li a{
     }
     .section1 p{
         font-size: 20px;
-        padding: 90px;
+        padding: 10px;
     }
     .section1 a{
         font-size: 25px;
@@ -277,7 +277,7 @@ nav ul li a{
         background-color: lightskyblue;
         text-decoration: none;
         padding: 10px;
-        margin: 1050px 200px;
+        margin: 1550px 100px;
         border-radius: 3px;
         border: 2px solid lightskyblue;
     }
@@ -285,13 +285,11 @@ nav ul li a{
         margin: 40px auto;
     }
     .section3{
-        float: left;
-        width:  100%;
+        width:  50%;
         padding: 0px 30px;
     }
     .section3 , img {
         margin: 15px 0px 0px 15px;
-        margin-right: -40px;
     }
     .section4{
         float: right;
@@ -383,7 +381,7 @@ nav ul li a{
         width: 90%;
     }
     .section7 , img {
-        padding: 20px 20px 20px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .section6 a{
         text-align: left;
@@ -406,7 +404,7 @@ nav ul li a{
     }
     .section13{
         background-color: black;
-        padding: 50px 0px 200px 0px;
+        padding: 50px 0px 250px 0px;
     }
     .section14{
         width: 100%;
@@ -415,7 +413,7 @@ nav ul li a{
     .section14 h1{
         color: white;
         font-size: 25px;
-        padding-left: 120px;
+        padding-left: 60px;
     }
     .section15{
         width: 100%;
