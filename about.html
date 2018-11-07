@@ -16,7 +16,7 @@
 <nav class="nav" >
         <div class="logo">
             <img src="images/g2.png">
-            <button class="button"><i class="fa fa-bars"></i></button>
+            <button class="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
         <ul>
             <li><a href="#"> Home </a></li>
@@ -149,5 +149,18 @@
         </ul>
     </div>
 </section>
+
+
+
+<!----flex---->
+<script src="code/js/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.button').click(function () {
+            $('.nav ul').toggleClass('active')
+        });
+    });
+</script>
 </body>
 </html>

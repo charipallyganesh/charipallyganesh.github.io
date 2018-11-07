@@ -217,12 +217,12 @@
         overflow: hidden;
     }
     .nav ul{
-        float: right;
-        padding-top: 15px;
+        width: 100%;
+        display: none;
     }
     .nav ul li{
         list-style-type: none;
-        display: inline-block;
+        display:  inline-block;
     }
     .nav ul li a{
         text-decoration: none;
@@ -230,17 +230,21 @@
         font-size: 18px;
         color: white;
         padding: 15px 25px;
-        display: none;
+        display: inline;
     }
     .logo{
-        float: left;
-        padding: 10px 25px;
+
+        display: block;
     }
     .button{
-        margin: 30px;
+        width: 20%;
+        background-color: green;
         float: right;
-        display: none;
+        display: inline-block;
         position: relative;
+    }
+    .active{
+        display: block;
     }
     .div{
         clear: both;
