@@ -15,7 +15,7 @@
     <nav>
         <div class="logo">
             <img src="images/g2.png">
-            <button class="button"><i class="fa fa-bars"></i></button>
+            <button class="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
             <ul>
             <li><a href="index.html"> Home </a></li>
@@ -23,7 +23,7 @@
             <li><a href="#"> Services </a></li>
             <li><a href="#"> Contact </a></li>
             </ul>
-<section class="section1">
+    <section class="section1">
         <h1>This is Urban</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores assumenda cupiditate doloremque, eos est expedita ipsa iure neque non perspiciatis placeat porro, qui quia quo quos sunt vel voluptatibus?</p>
         <a href="#"> Learn More </a>
@@ -128,12 +128,11 @@
 
 <script>
     $(document).ready(function () {
-        $('.button').on('click',function () {
-            $('ul').toggleClass('show')
+        $('.button').click(function () {
+            $('nav ul').toggleClass('active')
         });
     });
 </script>
-
 
 </body>
 </html>

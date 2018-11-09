@@ -235,28 +235,51 @@ nav ul li a{
     }
     .logo{
         float: none;
+        display: block;
     }
     nav ul{
-        float: none;
         width: 100%;
-        display: inline;
+        display: none;
     }
     nav ul li{
         list-style-type: none;
+        display: block;
+        text-align: center;
     }
     nav ul li a{
         font-family: "Scope One", serif;
         font-size: 20px;
         color: white;
+        width: 100%;
+        background-color: red;
+        display: inline-block;
         text-decoration: none;
-        padding: 30px 25px;
-        display: none;
+        padding: 10px 25px;
+    }
+    nav ul li a:hover{
+        font-family: "Scope One", serif;
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        background-color: black;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 25px;
     }
     .button{
-        margin: 30px;
+        margin: 15px;
+        width: 20%;
         float: right;
-        display: inline;
-        position: relative;
+        display: block;
+    }
+    .button:hover{
+        margin: 15px;
+        width: 20%;
+        float: right;
+        display: block;
+    }
+    .active{
+        display: block;
     }
     .section1 h1 , .section1 p{
         font-family: "Scope One", serif;
@@ -268,6 +291,7 @@ nav ul li a{
     .section1 p{
         font-size: 20px;
         padding: 10px;
+        margin-bottom: 30px;
     }
     .section1 a{
         font-size: 25px;
@@ -276,7 +300,7 @@ nav ul li a{
         background-color: lightskyblue;
         text-decoration: none;
         padding: 10px;
-        margin: 1550px 100px;
+        margin: 100px 120px;
         border-radius: 3px;
         border: 2px solid lightskyblue;
     }
@@ -285,10 +309,10 @@ nav ul li a{
     }
     .section3{
         width:  50%;
-        padding: 0px 30px;
+        padding: 0 30px;
     }
     .section3 , img {
-        margin: 15px 0px 0px 15px;
+        margin: 15px 55px 0 0;
     }
     .section4{
         float: right;
@@ -302,7 +326,7 @@ nav ul li a{
         padding-left: 100px;
     }
     .section4 p{
-        padding-left: 100px;
+        padding: 30px 40px 30px 100px;
     }
     .section4 a{
         text-align: left;
@@ -382,6 +406,9 @@ nav ul li a{
     }
     .section7 , img {
         padding: 0px 0px 0px 0px;
+    }
+    .section6 p{
+        padding: 30px 50px 30px 20px;
     }
     .section6 a{
         text-align: left;

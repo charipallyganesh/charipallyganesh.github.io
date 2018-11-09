@@ -3,19 +3,19 @@
     padding: 0;
     font-family: "Scope One", serif;
 }
-.nav {
+nav {
     background-color: black;
     overflow: hidden;
 }
-.nav ul{
+nav ul{
     float: right;
     padding-top: 15px;
 }
-.nav ul li{
-    list-style-type: none;
+nav ul li{
     display: inline-block;
+    list-style-type: none;
 }
-.nav ul li a{
+nav ul li a{
     text-decoration: none;
     font-family: "Scope One", serif;
     font-size: 18px;
@@ -27,6 +27,14 @@
     padding: 10px 25px;
 }
 .button{
+    width: 100%;
+    padding: 10px;
+    background: black;
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
     display: none;
 }
 .div{
@@ -87,7 +95,7 @@
 }
 .team1:hover , .team2:hover , .team3:hover{
     width: 30%;
-    border: 2px solid black;
+    border: 2px solid white;
     text-align: center;
     background: linear-gradient(red,blue,green);
     color: white;
@@ -205,43 +213,70 @@
     text-decoration: none;
     color: white;
 }
+.section12 {
+    background-image: url("images/m6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.section13 i{
+    font-size: 60px;
+    padding-top: 100px;
+}
+.section13 h1{
+    font-size: 60px;
+    padding: 50px 20px 30px 20px;
+}
+.section13 p{
+    font-size: 16px;
+    padding: 0 100px;
+}
+.button1{
 
+}
 @media screen and (max-width: 578px){
     *{
         margin: 0;
         padding: 0;
         font-family: "Scope One", serif;
     }
-    .nav {
+    nav {
         background-color: black;
         overflow: hidden;
     }
-    .nav ul{
+    nav ul{
         width: 100%;
         display: none;
     }
-    .nav ul li{
+    nav ul li{
         list-style-type: none;
-        display:  inline-block;
+        display:  block;
+        text-align: center;
     }
-    .nav ul li a{
+    nav ul li a{
         text-decoration: none;
         font-family: "Scope One", serif;
         font-size: 18px;
         color: white;
         padding: 15px 25px;
-        display: inline;
+        display: inline-block;
     }
-    .logo{
-
+    .logo {
+        float: none;
         display: block;
     }
     .button{
         width: 20%;
-        background-color: green;
         float: right;
-        display: inline-block;
-        position: relative;
+        padding: 10px;
+        background: black;
+        text-align: center;
+        box-sizing: border-box;
+        border: 2px solid white;
+        color: white;
+        font-size: 30px;
+        display: block;
     }
     .active{
         display: block;
@@ -269,15 +304,15 @@
     }
     .section2 h1{
         font-size: 30px;
-        padding: 10px;
+        padding: 10px 20px;
     }
     .section2 p{
         font-size: 16px;
-        padding: 10px;
+        padding: 10px 80px 10px 10px;
     }
     .section3{
         width: 80%;
-        margin-right: 10px;
+        margin-right: 30px;
     }
     .section4{
         padding: 30px 10px;
@@ -304,7 +339,7 @@
     }
     .team1:hover , .team2:hover , .team3:hover{
         width: 80%;
-        border: 2px solid black;
+        border: 2px solid white;
         text-align: center;
         background: linear-gradient(red,blue,green);
         color: white;
@@ -336,7 +371,7 @@
     }
     .team1{
         width: 80%;
-        margin-left: 30px;
+        margin-left: 39px;
     }
     .team2{
         width: 80%;
