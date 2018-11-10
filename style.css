@@ -71,7 +71,7 @@ nav ul li a{
     padding: 20px 40px;
 }
 .section3 , img {
-    margin: 15px 0px 30px 15px;
+    margin: 15px 0 30px 15px;
     margin-right: -40px;
 }
 .section4 , h1 , p{
@@ -184,7 +184,7 @@ nav ul li a{
 }
 .section13{
     background-color: black;
-    padding: 50px 0px 100px 0px;
+    padding: 50px 0 100px 0;
 }
 .section14{
     width: 60%;
@@ -219,14 +219,14 @@ nav ul li a{
 }
 .section16{
     background-color: grey;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0 20px 0;
 }
 .section16 h1{
     color: white;
     text-align: center;
 }
 
-@media (max-width: 578px) {
+@media (max-width: 576px) {
     nav{
         background-color: black;
         width: auto;
@@ -284,13 +284,11 @@ nav ul li a{
     .section1 h1 , .section1 p{
         font-family: "Scope One", serif;
         font-size: 50px;
-        color: white;
         text-align: center;
-        padding: 140px 20px 0px 20px;
+        padding: 80px 20px 20px 20px
     }
     .section1 p{
         font-size: 20px;
-        padding: 10px;
         margin-bottom: 30px;
     }
     .section1 a{
@@ -405,7 +403,7 @@ nav ul li a{
         width: 90%;
     }
     .section7 , img {
-        padding: 0px 0px 0px 0px;
+        padding: 0 0 0 0;
     }
     .section6 p{
         padding: 30px 50px 30px 20px;
@@ -431,7 +429,7 @@ nav ul li a{
     }
     .section13{
         background-color: black;
-        padding: 50px 0px 250px 0px;
+        padding: 50px 0 250px 0;
     }
     .section14{
         width: 100%;

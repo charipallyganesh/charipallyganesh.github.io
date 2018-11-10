@@ -57,7 +57,7 @@ nav ul li a{
 .section2{
     width: 60%;
     float: left;
-    padding: 0px 0px 0px 60px;
+    padding: 0 0 0 60px;
 }
 .section2 h1{
     font-size: 30px;
@@ -194,7 +194,7 @@ nav ul li a{
 }
 .section10 ul li{
     font-family: "Scope One", serif;
-    padding: 5px 0px 10px 5px;
+    padding: 5px 0 10px 5px;
     color: white;
 }
 .section10 ul li a{
@@ -205,11 +205,11 @@ nav ul li a{
     list-style-type: none;
     text-decoration: none;
     color: white;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0 10px 10px;
 }
 .section11 ul li p{
     font-family: "Scope One", serif;
-    padding: 10px 0px 10px 10px;
+    padding: 10px 0 10px 10px;
     text-decoration: none;
     color: white;
 }
@@ -430,7 +430,7 @@ nav ul li a{
     }
     .section10 ul li{
         font-family: "Scope One", serif;
-        padding: 5px 0px 10px 5px;
+        padding: 5px 0 10px 5px;
         color: white;
     }
     .section10 ul li a{
@@ -441,11 +441,11 @@ nav ul li a{
         list-style-type: none;
         text-decoration: none;
         color: white;
-        padding: 10px 0px 10px 10px;
+        padding: 10px 0 10px 10px;
     }
     .section11 ul li p{
         font-family: "Scope One", serif;
-        padding: 10px 0px 10px 10px;
+        padding: 10px 0 10px 10px;
         text-decoration: none;
         color: white;
     }
