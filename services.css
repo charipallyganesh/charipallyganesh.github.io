@@ -30,6 +30,7 @@ nav ul li a{
 .button{
     width: 20%;
     display: none;
+    float: right;
 }
 .section12 {
     background-image: url("images/m6.jpg");
@@ -404,6 +405,7 @@ nav ul li a{
         background-size: cover;
         text-align: center;
         color: white;
+        height: 850px;
     }
     .section13 i{
         font-size: 60px;
@@ -421,7 +423,7 @@ nav ul li a{
     .section14{
         background-color: #eeeeee;
         padding: 50px 10px;
-        height: 1450px;
+        height: 1650px;
     }
     .section14 h1{
         font-family: "Scope One", serif;
@@ -538,7 +540,7 @@ nav ul li a{
         padding: 60px 20px;
         background: url("images/g87.jpg") no-repeat fixed;
         text-align: center;
-        height: 1790px;
+        height: 2590px;
     }
     .section23 h1{
         font-size: 35px;
