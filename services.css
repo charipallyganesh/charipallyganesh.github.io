@@ -423,7 +423,7 @@ nav ul li a{
     .section14{
         background-color: #eeeeee;
         padding: 50px 10px;
-        height: 1650px;
+        height: 1450px;
     }
     .section14 h1{
         font-family: "Scope One", serif;
@@ -538,9 +538,9 @@ nav ul li a{
     }
     .section23{
         padding: 60px 20px;
-        background: url("images/g87.jpg") no-repeat fixed;
+        background: url("images/g87.jpg") no-repeat scroll;
         text-align: center;
-        height: 2590px;
+        height: 890px;
     }
     .section23 h1{
         font-size: 35px;
@@ -557,9 +557,11 @@ nav ul li a{
     }
     .section25{
         width: 90%;
+        display: none;
     }
     .section26{
         width: 90%;
+        display: none;
     }
     .section27{
         background: url("images/featured-wrapper-bg.jpg") repeat;

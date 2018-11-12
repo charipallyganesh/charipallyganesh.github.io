@@ -243,7 +243,7 @@ input[type='your message']{
     input[type='radio']{
         color: black;
         padding: 10px;
-        margin:  40px 20px;
+        margin: 40px 10px;
         font-size: 18px;
         text-align: left;
     }
@@ -252,6 +252,7 @@ input[type='your message']{
         padding: 10px;
         font-size: 18px;
         text-align: left;
+        margin-top: 10px;
     }
     .select{
         border: 3px solid white;
@@ -265,7 +266,6 @@ input[type='your message']{
         outline: none;
         background: none;
         font-size: 20px;
-        margin: 30px;
     }
     .button1:hover{
         padding: 20px;
@@ -275,7 +275,6 @@ input[type='your message']{
         outline: none;
         background-color: white;
         font-size: 20px;
-        margin: 30px;
     }
     .password{
         margin-left: 1px;
