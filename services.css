@@ -37,6 +37,7 @@ nav ul li a{
     background-size: cover;
     text-align: center;
     color: white;
+    height: 650px;
 }
 .section13 i{
     font-size: 60px;
@@ -74,7 +75,6 @@ nav ul li a{
 .section14 p{
     font-family: "Scope One", serif;
     font-size: 20px;
-    padding-bottom: 80px;
 }
 .section15  .section16  .section17  .section18 ,  h2{
     font-size: 25px;
@@ -151,13 +151,13 @@ nav ul li a{
     width: 50%;
     float: right;
 }
-.section20 .section21 ,img:hover{
-    box-shadow: 7px 7px 7px 7px black;
-}
 .hr{
     width: 90%;
     color: black;
     margin: 50px;
+}
+.div{
+    clear: both;
 }
 .section22{
     text-align: center;
@@ -183,8 +183,9 @@ nav ul li a{
 }
 .section23{
     padding: 60px 20px;
-    background: url("images/featured-wrapper-bg.jpg") repeat;
-     text-align: center;
+    background: url("images/g87.jpg") no-repeat fixed;
+    text-align: center;
+    height: 650px;
 }
 .section23 h1{
     font-size: 35px;
@@ -192,19 +193,92 @@ nav ul li a{
     padding: 10px;
 }
 .section23 p{
-    font-size: 19px;
+    font-size: 17px;
     color: white;
-    padding: 10px 30px;
+    padding: 40px 30px;
 }
-
-
-
-
-
-
-
-
-
+.section24{
+    width: 32%;
+    float: left;
+}
+.section25{
+    width: 32%;
+    float: right;
+}
+.section26{
+    width: 32%;
+    float: right;
+}
+.section27{
+    background: url("images/featured-wrapper-bg.jpg") repeat;
+    padding: 30px 10px;
+    height: 170px;
+}
+.section28 {
+    width: 33%;
+    float: left;
+}
+.section28 , .section29 , .section30 h1{
+    color: white;
+}
+.section29{
+    width: 33%;
+    float: right;
+}
+.section30{
+    width: 33%;
+    float: right;
+}
+.section28 ul li{
+    list-style-type: none;
+    padding: 4px;
+}
+.section29 ul li{
+    list-style-type: none;
+    padding: 4px;
+}
+.section30 ul li{
+    list-style-type: none;
+    padding: 4px;
+}
+.section28 ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.section29 ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.section30 ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+.section31{
+    background-color: black;
+    padding: 25px 15px;
+}
+.section32 a{
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    text-align: center;
+    float: right;
+ }
+.section32 ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.section33{
+    color: white;
+    width: 70%;
+    float: left;
+}
+.section33 h1{
+    text-align: center;
+}
 
 
 
@@ -324,6 +398,26 @@ nav ul li a{
         border: 2px solid red;
         margin: 20px;
     }
+    .section12 {
+        background-image: url("images/m6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: white;
+    }
+    .section13 i{
+        font-size: 60px;
+        padding-top: 100px;
+    }
+    .section13 h1{
+        font-size: 50px;
+        padding: 50px 20px 30px 20px;
+    }
+    .section13 p{
+        font-size: 19px;
+        padding: 0 70px;
+        color: white;
+    }
     .section14{
         background-color: #eeeeee;
         padding: 50px 10px;
@@ -331,7 +425,7 @@ nav ul li a{
     }
     .section14 h1{
         font-family: "Scope One", serif;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
     }
     .section14 p{
@@ -404,13 +498,14 @@ nav ul li a{
         padding: 30px 30px;
     }
     .section20{
-        width: 100%;
+        width: 90%;
     }
     .section21{
-        width: 100%;
+        width: 90%;
+        margin-right: 40px;
     }
-    .section20 .section21 ,img:hover{
-        box-shadow: 7px 7px 7px 7px black;
+    .section20 .section21 ,img{
+        width: 80%;
     }
     .hr{
         width: 80%;
@@ -438,5 +533,95 @@ nav ul li a{
         outline: none;
         border: 2px solid red;
         border-radius: 40px;
+    }
+    .section23{
+        padding: 60px 20px;
+        background: url("images/g87.jpg") no-repeat fixed;
+        text-align: center;
+        height: 1790px;
+    }
+    .section23 h1{
+        font-size: 35px;
+        color: white;
+        padding: 10px;
+    }
+    .section23 p{
+        font-size: 17px;
+        color: white;
+        padding: 40px 30px;
+    }
+    .section24{
+        width: 90%;
+    }
+    .section25{
+        width: 90%;
+    }
+    .section26{
+        width: 90%;
+    }
+    .section27{
+        background: url("images/featured-wrapper-bg.jpg") repeat;
+        padding: 30px 10px;
+        height: 550px;
+    }
+    .section28 {
+        width: 100%;
+    }
+    .section28 , .section29 , .section30 h1{
+        color: white;
+    }
+    .section29{
+        width: 100%;
+    }
+    .section30{
+        width: 100%;
+    }
+    .section28 ul li{
+        list-style-type: none;
+        padding: 4px;
+    }
+    .section29 ul li{
+        list-style-type: none;
+        padding: 4px;
+    }
+    .section30 ul li{
+        list-style-type: none;
+        padding: 4px;
+    }
+    .section28 ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+    .section29 ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+    .section30 ul li a{
+        color: white;
+        text-decoration: none;
+        padding: 4px;
+    }
+    .section31{
+        background-color: black;
+        padding: 25px 15px;
+    }
+    .section32 a{
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .section32 ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    .section33{
+        color: white;
+        width: 100%;
+    }
+    .section33 h1{
+        text-align: left;
     }
 }
