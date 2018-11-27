@@ -605,10 +605,10 @@ nav ul li a{
         margin: 30px 19px;
     }
     .div3{
-        display: none;
+        float: right;
+
     }
     .div3 img{
-        display: none;
     }
     .div{
         clear: both;
