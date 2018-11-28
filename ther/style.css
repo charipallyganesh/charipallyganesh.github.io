@@ -677,6 +677,7 @@ nav ul li a{
         float: right;
     }
     .div3 img{
+        display: none;
     }
     .div{
         clear: both;
