@@ -550,7 +550,7 @@ nav ul li a{
         margin: 40px auto;
     }
     .section3{
-        width:  50%;
+        width:  40%;
         padding: 0 30px;
     }
     .section3 , img {
@@ -598,10 +598,10 @@ nav ul li a{
         font-size: 40px;
         text-align: center;
         color: white;
-		font-family: Nunito, serif;
+	font-family: Nunito, serif;
     }
     .section8 p{
-		font-family: Nunito, serif;
+	font-family: Nunito, serif;
         font-size: 18px;
         text-align: center;
         color: white;
@@ -613,7 +613,6 @@ nav ul li a{
     .section10{
         width: 100%;
         float: right;
-      
     }
     .section11{
         width: 100%;
@@ -647,7 +646,7 @@ nav ul li a{
     }
     .section7{
         float: right;
-        width: 90%;
+        width: 70%;
     }
     .section7 , img {
         padding: 0 0 0 0;
