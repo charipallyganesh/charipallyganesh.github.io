@@ -594,7 +594,7 @@ nav ul li a{
     }
     .section8 , .section9 , .section10 , .section11{
         background-color: black;
-
+        text-align: center;
     }
     .section8 h1{
         font-family: Nunito, serif;
@@ -611,17 +611,16 @@ nav ul li a{
     .section9{
         width: 100%;
         float: left;
-        text-align: left;
     }
     .section10{
         width: 100%;
         float: right;
-        text-align: left;
+       
     }
     .section11{
         width: 100%;
         float: right;
-        text-align: left;
+       
     }
     .section9 img{
         border: 2px solid black;
