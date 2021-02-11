@@ -550,7 +550,7 @@ nav ul li a{
         margin: 40px auto;
     }
     .section3{
-        width:  50%;
+        width:  30%;
         padding: 0 30px;
     }
     .section3 , img {
@@ -647,7 +647,8 @@ nav ul li a{
     }
     .section7{
         float: right;
-        width: 50%;
+        width: 30%;
+	padding-left: -100px;
     }
     .section7 , img {
         padding: 0 0 0 0;
