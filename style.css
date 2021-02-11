@@ -495,7 +495,7 @@ nav ul li a{
         font-size: 20px;
         color: white;
         width: 100%;
-        background-color: black;
+        background-color: red;
         display: inline-block;
         text-decoration: none;
         padding: 10px 25px;
@@ -550,7 +550,7 @@ nav ul li a{
         margin: 40px auto;
     }
     .section3{
-        width:  40%;
+        width:  50%;
         padding: 0 30px;
     }
     .section3 , img {
@@ -598,22 +598,32 @@ nav ul li a{
         font-size: 40px;
         text-align: center;
         color: white;
-	font-family: Nunito, serif;
+		font-family: Nunito, serif;
     }
     .section8 p{
-	font-family: Nunito, serif;
+		font-family: Nunito, serif;
         font-size: 18px;
         text-align: center;
         color: white;
-	}
-    .section10{
+    }
+    .section9{
         width: 100%;
         float: left;
+    }
+    .section10{
+        width: 100%;
+        float: right;
+      
     }
     .section11{
         width: 100%;
         float: right;
         
+    }
+    .section9 img{
+        border: 5px solid black;
+        border-radius: 50px;
+		
     }
     .section10 img{
         border: 5px solid black;
@@ -637,7 +647,7 @@ nav ul li a{
     }
     .section7{
         float: right;
-        width: 70%;
+        width: 50%;
     }
     .section7 , img {
         padding: 0 0 0 0;
