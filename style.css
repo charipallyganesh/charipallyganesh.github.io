@@ -33,7 +33,7 @@ nav ul li a{
     display: none;
 }
 .section1 h1 , .section1 p , .section1 a{
-    font-family: Nunito, serif;
+    font-family: "Scope One", serif;
     font-size: 45px;
     color: white;
     text-align: center;
@@ -75,7 +75,7 @@ nav ul li a{
     margin-right: -40px;
 }
 .section4 , h1 , p{
-    font-family: Nunito, serif;
+    font-family: "Scope One", serif;
     padding: 20px 20px;
 }
 .button{
