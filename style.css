@@ -33,8 +33,8 @@ nav ul li a{
     display: none;
 }
 .section1 h1 , .section1 p , .section1 a{
-    font-family: "Scope One", serif;
-    font-size: 60px;
+    font-family: Roboto, serif;
+    font-size: 45px;
     color: white;
     text-align: center;
     padding: 180px 60px 30px 30px;
