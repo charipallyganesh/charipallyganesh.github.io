@@ -33,7 +33,7 @@ nav ul li a{
     display: none;
 }
 .section1 h1 , .section1 p , .section1 a{
-    font-family: "Scope One", serif;
+    font-family: Nunito, serif;
     font-size: 45px;
     color: white;
     text-align: center;
@@ -63,19 +63,19 @@ nav ul li a{
 }
 .section3{
     float: left;
-    width:  30%;
+    width:  40%;
 }
 .section4{
     float: right;
-    width: 65%;
-    padding: 20px 40px;
+    width: 50%;
+    
 }
 .section3 , img {
     margin: 15px 0 30px 15px;
     margin-right: -40px;
 }
 .section4 , h1 , p{
-    font-family: Raleway, sans-serif;
+    font-family: Nunito, serif;
     padding: 20px 20px;
 }
 .button{
@@ -109,14 +109,14 @@ nav ul li a{
 }
 .section6{
     float: left;
-    width: 65%;
+    width: 45%;
     padding: 10px 20px;
 
 }
 .section7{
     float: right;
     margin-left: -30px;
-    width: 30%;
+    width: 50%;
 }
 .section6 a{
     text-align: left;
@@ -138,7 +138,7 @@ nav ul li a{
     text-decoration: none;
 }
 .section8 , .section9 , .section10 , .section11{
-    background-color: blue;
+    background-color: black;
     padding-top: 50px;
 }
 .section8 h1{
@@ -167,20 +167,21 @@ nav ul li a{
     text-align: center;
 }
 .section9 img{
-    border: 2px solid white;
-    border-radius: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 .section10 img{
-    border: 2px solid white;
-    border-radius: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 .section11 img{
-    border: 2px solid white;
-    border-radius: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 .section9 , .section10 , .section11 , p{
     text-align: left;
     padding-bottom: 50px;
+	color: black;
 }
 .section13{
     background-color: black;
@@ -226,12 +227,7 @@ nav ul li a{
     text-align: center;
 }
 
-@media screen and (max-width: 578px){
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: "Scope One", serif;
-    }
+@media (max-width: 576px) {
     nav{
         background-color: black;
         width: auto;
@@ -351,13 +347,14 @@ nav ul li a{
         text-decoration: none;
     }
     .section8 , .section9 , .section10 , .section11{
-        background-color: blue;
+        background-color: black;
 
     }
     .section8 h1{
         font-size: 40px;
         text-align: center;
         color: white;
+		font-family: nNu
     }
     .section8 p{
         font-size: 20px;
@@ -498,7 +495,7 @@ nav ul li a{
         font-size: 20px;
         color: white;
         width: 100%;
-        background-color: red;
+        background-color: black;
         display: inline-block;
         text-decoration: none;
         padding: 10px 25px;
@@ -595,15 +592,16 @@ nav ul li a{
     .section8 , .section9 , .section10 , .section11{
         background-color: black;
         text-align: center;
+		
     }
     .section8 h1{
-        font-family: Nunito, serif;
         font-size: 40px;
         text-align: center;
         color: white;
+		font-family: Nunito, serif;
     }
     .section8 p{
-        font-family: Nunito, serif;
+		font-family: Nunito, serif;
         font-size: 18px;
         text-align: center;
         color: white;
@@ -615,24 +613,25 @@ nav ul li a{
     .section10{
         width: 100%;
         float: right;
-       
+      
     }
     .section11{
         width: 100%;
         float: right;
-       
+        
     }
     .section9 img{
-        border: 2px solid black;
+        border: 5px solid black;
         border-radius: 50px;
+		
     }
     .section10 img{
-        border: 2px solid black;
-        border-radius: 50px;
+        border: 5px solid black;
+       border-radius: 50px;
     }
     .section11 img{
-        border: 2px solid black;
-        border-radius: 50px;
+        border: 5px solid black;
+      border-radius: 50px;
     }
     .section9 , .section10 , .section11 , p{
         text-align: left;
