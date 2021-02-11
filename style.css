@@ -250,7 +250,7 @@ nav ul li a{
         font-family: "Scope One", serif;
         font-size: 20px;
         color: white;
-        width: 100%;
+        
         background-color: red;
         display: inline-block;
         text-decoration: none;
@@ -260,7 +260,7 @@ nav ul li a{
         font-family: "Scope One", serif;
         font-size: 20px;
         color: white;
-        width: 100%;
+        
         background-color: black;
         display: inline-block;
         text-decoration: none;
