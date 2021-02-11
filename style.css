@@ -33,14 +33,14 @@ nav ul li a{
     display: none;
 }
 .section1 h1 , .section1 p , .section1 a{
-    font-family: Roboto, serif;
+    font-family: Raleway, serif;
     font-size: 45px;
     color: white;
     text-align: center;
     padding: 180px 60px 30px 30px;
 }
 .section1 p{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     padding: 30px 120px 30px 120px ;
 }
