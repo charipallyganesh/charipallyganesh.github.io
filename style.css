@@ -62,17 +62,18 @@ nav ul li a{
     margin: 40px auto;
 }
 .section3{
-    float: left;
-    width:  40%;
+    
+    width: 90%;
 }
 .section4{
-    float: right;
-    width: 50%;
+    
+    width: 95%;
     
 }
-.section3 , img {
+.section3 img {
     margin: 15px 0 30px 15px;
     margin-right: -40px;
+	width: 97%;
 }
 .section4 , h1 , p{
     font-family: "Scope One", serif;
