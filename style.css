@@ -639,6 +639,7 @@ nav ul li a{
     }
     .section5{
         margin: 30px auto;
+	width: 100%;
     }
     .section6{
         float: left;
