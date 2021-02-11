@@ -593,16 +593,18 @@ nav ul li a{
         text-decoration: none;
     }
     .section8 , .section9 , .section10 , .section11{
-        background-color: blue;
+        background-color: black;
 
     }
     .section8 h1{
+        font-family: Nunito, serif;
         font-size: 40px;
         text-align: center;
         color: white;
     }
     .section8 p{
-        font-size: 20px;
+        font-family: Nunito, serif;
+        font-size: 18px;
         text-align: center;
         color: white;
     }
@@ -622,16 +624,16 @@ nav ul li a{
         text-align: left;
     }
     .section9 img{
-        border: 2px solid white;
-        border-radius: 100px;
+        border: 2px solid black;
+        border-radius: 50px;
     }
     .section10 img{
-        border: 2px solid white;
-        border-radius: 100px;
+        border: 2px solid black;
+        border-radius: 50px;
     }
     .section11 img{
-        border: 2px solid white;
-        border-radius: 100px;
+        border: 2px solid black;
+        border-radius: 50px;
     }
     .section9 , .section10 , .section11 , p{
         text-align: left;
