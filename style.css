@@ -605,24 +605,15 @@ nav ul li a{
         font-size: 18px;
         text-align: center;
         color: white;
-    }
-    .section9{
-        width: 100%;
-        float: left;
-    }
+	}
     .section10{
         width: 100%;
-        float: right;
+        float: left;
     }
     .section11{
         width: 100%;
         float: right;
         
-    }
-    .section9 img{
-        border: 5px solid black;
-        border-radius: 50px;
-		
     }
     .section10 img{
         border: 5px solid black;
