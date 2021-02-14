@@ -329,8 +329,12 @@ nav ul li a{
 		text-align: left;
     }
     .section3{
-        width: 75%;
+        width: 50%;
     }
+	.section3 img{
+		width:50%;
+	}
+	
     .section4{
         padding: 30px 10px;
     }
