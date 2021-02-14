@@ -311,19 +311,19 @@ nav ul li a{
 		line-height:30px;
     }
     .section2{
-	    width: 100%;
+	    width: 75%;
         
     }
     .section2 h1{
 		font-family: Roboto;
-        font-size: 30px;
+                font-size: 30px;
 		text-align: left;
        
     }
     .section2 p{
 		width: 75%;
 		font-family: Roboto;
-        font-size: 14px;
+                font-size: 14px;
 		padding: 18px 0px;
 		line-height:30px;
 		text-align: left;
