@@ -354,15 +354,15 @@ nav ul li a{
     }
     .section5 p{
 		font-family: Roboto;
-        font-size: 16px;
-        padding: 10px;
+                font-size: 16px;
+                padding: 10px;
 		text-align: center;
 		line-height: 35px;
     }
     .team1{
 		width: 75%;
 		
-		margin-left:80px;
+		margin-left:30px;
 	}
 	.team1 img{
 		width: 50%;
